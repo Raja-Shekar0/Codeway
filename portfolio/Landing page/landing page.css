@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    background-color: #081b29;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    color: #ededed;
+    font-weight: 700;
+    font-size: 40px;
+    position: fixed;
+    justify-content:space-between;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    z-index: 100;
+}
+#home{
+    color: #ededed;
+    padding: 0 10%;
+    align-items: center;
+    height: 100vh;
+    display: inline-flex;
+}
+#home h1{
+    color: #00abf0;
+    max-width: 600px;
+    line-height: 1.2;
+    font-size: 46px;
+    font-weight: 700;
+    height: 50px;
+}
+#home p{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px 0 40px;
+    position: absolute;
+    top: 75%;
+}
+#home img{
+    height: 500px;
+    width: 500px;
+    clear: both;
+    position: relative;
+    left: 500px;
+    
+}
+#services{
+    padding: 40px 10%;
+}
+#services h2{
+    color: #00abf0;
+    font-size: 40px;
+    font-weight: 700;
+}
+#services ul{
+    color: #ededed;
+    font-size: 25px;
+}
+#about{
+    padding: 40px 10%;
+}
+#about h2{
+    color: #00abf0;
+    font-size: 40px;
+    font-weight: 700;
+}
+#about p{
+    color: #ededed;
+    font-size: 25px;
+}
+#portfolio{
+    padding: 40px 10%;
+}
+#portfolio h2{
+    color: #00abf0;
+    font-size: 40px;
+    font-weight: 700;
+}
+#portfolio ul{
+    color: #ededed;
+    display: grid;
+    font-size: 25px;
+}
+#portfolio img{
+    height: 300px;
+    display: flex;
+}
+#contact{
+    padding: 40px 10%;
+}
+#contact h2{
+    color: #00abf0;
+    font-size: 40px;
+    font-weight: 700;
+}
+#contact form{
+    color: #ededed;
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}   
+button{
+    color: #00abf0;
+    align-items: center;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    z-index: 1;
+    font-weight: 600;
+}
+#contact input{
+    color: #ededed;
+}
+footer{
+    color:#ededed ;
+    padding: 40px 0%;
+}
